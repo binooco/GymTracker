@@ -1,0 +1,11 @@
+﻿namespace GymTracker.Api.Models
+{
+    public class WorkoutCreateDto
+    {
+        public DateTime Date { get; set; }
+        public string ExerciseName { get; set; } = "";
+        public double Weight { get; set; }
+        public int Reps { get; set; }
+
+    }
+}

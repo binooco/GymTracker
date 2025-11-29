@@ -1,6 +1,19 @@
-@GymTracker.Api_HostAddress = http://localhost:5205
+@host = https://localhost:7254
 
-GET {{GymTracker.Api_HostAddress}}/weatherforecast/
+### GET all workouts
+GET {{host}}/api/workouts
 Accept: application/json
 
-###
+### Add workout
+POST {{host}}/api/workouts
+Content-Type: application/json
+
+{
+  "date": "2025-11-27T00:00:00",
+  "exerciseName": "Жим лежачи",
+  "weight": 100,
+  "reps": 5
+}
+
+### Delete workout
+DELETE {{host}}/api/workouts/1
