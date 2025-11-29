@@ -1,41 +1,53 @@
+using GymTracker.Api.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// Swagger (документація API)
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// ===== In-memory список тренувань =====
+List<Workout> workouts = new();
+int nextId = 1;
 
-var summaries = new[]
+// GET /api/workouts – список тренувань
+app.MapGet("/api/workouts", () =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    return workouts;
+});
 
-app.MapGet("/weatherforecast", () =>
+// POST /api/workouts – додати тренування
+app.MapPost("/api/workouts", (WorkoutCreateDto dto) =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+    var workout = new Workout
+    {
+        Id = nextId++,
+        Date = dto.Date,
+        ExerciseName = dto.ExerciseName,
+        Weight = dto.Weight,
+        Reps = dto.Reps
+    };
+
+    workouts.Add(workout);
+    return Results.Created($"/api/workouts/{workout.Id}", workout);
+});
+
+// DELETE /api/workouts/{id} – видалити тренування
+app.MapDelete("/api/workouts/{id}", (int id) =>
+{
+    var workout = workouts.FirstOrDefault(w => w.Id == id);
+    if (workout is null) return Results.NotFound();
+
+    workouts.Remove(workout);
+    return Results.NoContent();
+});
 
 app.Run();
-
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

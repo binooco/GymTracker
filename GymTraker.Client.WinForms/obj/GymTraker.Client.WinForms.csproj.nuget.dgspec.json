@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OKR\\LW2\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj": {}
+    "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj": {}
   },
   "projects": {
-    "D:\\OKR\\LW2\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj": {
+    "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OKR\\LW2\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
+        "projectUniqueName": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
         "projectName": "GymTraker.Client.WinForms",
-        "projectPath": "D:\\OKR\\LW2\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
+        "projectPath": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
         "packagesPath": "C:\\Users\\Maks\\.nuget\\packages\\",
-        "outputPath": "D:\\OKR\\LW2\\GymTracker\\GymTraker.Client.WinForms\\obj\\",
+        "outputPath": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
