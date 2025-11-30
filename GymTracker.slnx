@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="GymTracker.Api/GymTracker.Api.csproj" />
   <Project Path="GymTraker.Client.WinForms/GymTraker.Client.WinForms.csproj" />
 </Solution>

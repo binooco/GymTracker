@@ -12,11 +12,9 @@ namespace GymTraker.Client.WinForms
         public MainForm()
         {
             InitializeComponent();
-
-            // ⚠️ ЗАМІНИ порт на той, що у тебе в launchSettings.json (https)
             _httpClient = new HttpClient
             {
-                BaseAddress = new Uri("https://localhost:7254")
+                BaseAddress = new Uri("https://localhost:7136")
             };
 
             dgvWorkouts.AutoGenerateColumns = true;
