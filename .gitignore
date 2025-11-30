@@ -1,0 +1,80 @@
+# ============================
+# 	Visual Studio / .NET
+# ============================
+
+# Внутрішні файли VS
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build-артефакти
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# Кеші
+*.cache
+*.dbmdl
+*.opendb
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+**/packages/*
+*.nuget.props
+*.nuget.targets
+
+# Автоматично згенеровані файли VS
+*.designer.cs
+*.g.cs
+*.g.i.cs
+*.Generated.cs
+*_i.c
+*_p.c
+*.dll
+*.pdb
+*.exe
+*.mdb
+*.ilk
+
+# Резервні/тимчасові файли
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# JSON користувацькі
+*.json.user
+
+# Rider / VS Code (на всяк)
+.idea/
+*.iml
+.vscode/
+
+# Папки GitHub Actions
+.github/*_temp/
+
+# ============================
+# 	ОС-сміття
+# ============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS (якщо хтось раптом на маку)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+
