@@ -70,7 +70,7 @@ app.MapGet("/api/workouts/{id:int}", async (ApplicationDbContext db, int id) =>
 // ===== POST: додати тренування =====
 app.MapPost("/api/workouts", async (ApplicationDbContext db, WorkoutCreateDto dto) =>
 {
-    if (!IsValidWorkout(dto.ExerciseName, dto.Weight, dto.Reps, out var error))
+    if (!WorkoutValidator.IsValid(dto.ExerciseName, dto.Weight, dto.Reps, out var error))
         return Results.BadRequest(error);
 
     var workout = new Workout
@@ -95,7 +95,7 @@ app.MapPut("/api/workouts/{id:int}", async (ApplicationDbContext db, int id, Wor
     if (workout is null)
         return Results.NotFound($"Тренування з Id={id} не знайдено.");
 
-    if (!IsValidWorkout(dto.ExerciseName, dto.Weight, dto.Reps, out var error))
+    if (!WorkoutValidator.IsValid(dto.ExerciseName, dto.Weight, dto.Reps, out var error))
         return Results.BadRequest(error);
 
     workout.Date = dto.Date.Date;
@@ -122,28 +122,3 @@ app.MapDelete("/api/workouts/{id:int}", async (ApplicationDbContext db, int id) 
 });
 
 app.Run();
-
-// ===== Допоміжна валідація =====
-static bool IsValidWorkout(string exerciseName, double weight, int reps, out string error)
-{
-    if (string.IsNullOrWhiteSpace(exerciseName))
-    {
-        error = "Назва вправи обовʼязкова.";
-        return false;
-    }
-
-    if (weight <= 0)
-    {
-        error = "Вага має бути більшою за 0.";
-        return false;
-    }
-
-    if (reps <= 0)
-    {
-        error = "Кількість повторень має бути більшою за 0.";
-        return false;
-    }
-
-    error = "";
-    return true;
-}
