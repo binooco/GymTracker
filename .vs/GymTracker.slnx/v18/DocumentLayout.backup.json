@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "D:\\Git\\GymTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\git\\gymtracker\\gymtraker.client.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\git\\gymtracker\\gymtraker.client.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\git\\gymtracker\\gymtraker.client.winforms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\git\\gymtracker\\gymtraker.client.winforms\\gymtraker.client.winforms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\gymtraker.client.winforms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\git\\gymtracker\\gymtraker.client.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\git\\gymtracker\\gymtraker.client.winforms\\models\\workoutcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\models\\workoutcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\git\\gymtracker\\gymtraker.client.winforms\\models\\workout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816D0716-4F05-4A7C-34E7-EA340E038CED}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\models\\workout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A1EA2FF-7624-4D43-5358-E9B0A3773CCA}|GymTracker.Api\\GymTracker.Api.csproj|d:\\git\\gymtracker\\gymtracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1EA2FF-7624-4D43-5358-E9B0A3773CCA}|GymTracker.Api\\GymTracker.Api.csproj|solutionrelative:gymtracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,89 +22,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\MainForm.Designer.cs",
-              "ToolTip": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\MainForm.Designer.cs",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\MainForm.Designer.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAADwv/oAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:28:11.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\MainForm.cs",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\MainForm.cs",
-              "ToolTip": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\MainForm.cs",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\MainForm.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAADwv6IAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:27:40.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\MainForm.cs",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\MainForm.cs",
-              "ToolTip": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\MainForm.cs [Design]",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:27:25.993Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\Program.cs",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\Program.cs",
-              "ToolTip": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\Program.cs",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTracker.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GymTracker.Api\\Program.cs",
+              "ToolTip": "D:\\Git\\GymTracker\\GymTracker.Api\\Program.cs",
+              "RelativeToolTip": "GymTracker.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:26:30.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorkoutCreateDto.cs",
-              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\Models\\WorkoutCreateDto.cs",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\Models\\WorkoutCreateDto.cs",
-              "ToolTip": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\Models\\WorkoutCreateDto.cs",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\Models\\WorkoutCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:25:31.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Workout.cs",
-              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\Models\\Workout.cs",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\Models\\Workout.cs",
-              "ToolTip": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\Models\\Workout.cs",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\Models\\Workout.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T17:23:57.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GymTraker.Client.WinForms.csproj",
-              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
-              "ToolTip": "D:\\Git\\GymTracker\\GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-27T17:23:19.263Z"
+              "WhenOpened": "2025-11-29T18:58:38.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
