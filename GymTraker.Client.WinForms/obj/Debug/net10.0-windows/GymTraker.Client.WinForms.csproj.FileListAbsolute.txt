@@ -1,0 +1,16 @@
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\bin\Debug\net10.0-windows\GymTraker.Client.WinForms.exe
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\bin\Debug\net10.0-windows\GymTraker.Client.WinForms.deps.json
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\bin\Debug\net10.0-windows\GymTraker.Client.WinForms.runtimeconfig.json
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\bin\Debug\net10.0-windows\GymTraker.Client.WinForms.dll
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\bin\Debug\net10.0-windows\GymTraker.Client.WinForms.pdb
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.MainForm.resources
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.csproj.GenerateResource.cache
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.GeneratedMSBuildEditorConfig.editorconfig
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.AssemblyInfoInputs.cache
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.AssemblyInfo.cs
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.csproj.CoreCompileInputs.cache
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.dll
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\refint\GymTraker.Client.WinForms.dll
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.pdb
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\GymTraker.Client.WinForms.genruntimeconfig.cache
+D:\OKR\LW2\GymTracker\GymTraker.Client.WinForms\obj\Debug\net10.0-windows\ref\GymTraker.Client.WinForms.dll

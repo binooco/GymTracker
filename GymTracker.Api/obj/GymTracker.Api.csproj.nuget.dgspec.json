@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj": {}
+    "D:\\OKR\\LW2\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj": {}
   },
   "projects": {
-    "D:\\Git\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj": {
+    "D:\\OKR\\LW2\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj",
+        "projectUniqueName": "D:\\OKR\\LW2\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj",
         "projectName": "GymTracker.Api",
-        "projectPath": "D:\\Git\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj",
+        "projectPath": "D:\\OKR\\LW2\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj",
         "packagesPath": "C:\\Users\\Maks\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\GymTracker\\GymTracker.Api\\obj\\",
+        "outputPath": "D:\\OKR\\LW2\\GymTracker\\GymTracker.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
