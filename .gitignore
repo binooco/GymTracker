@@ -1,0 +1,77 @@
+###############################
+#      VISUAL STUDIO
+###############################
+
+# VS приватні файли
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Designer / кеш
+*.cache
+*.dbmdl
+*.opendb
+*.v2
+*.binlog
+
+###############################
+#        .NET / C#
+###############################
+
+# Build output
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# Auto-generated files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.ilk
+*.tlog
+*.tmp
+*.temp
+
+# Razor / Windows forms автогенерація
+*.g.cs
+*.g.i.cs
+*.designer.cs
+*.Generated.cs
+
+###############################
+#        NUGET
+###############################
+
+# Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/packages/
+**/packages/*
+*.nuget.props
+*.nuget.targets
+project.assets.json
+project.nuget.cache
+
+###############################
+#      OS TRASH
+###############################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~

@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\OKR\\LW2\\GymTracker\\",
+  "WorkspaceRootPath": "D:\\Git\\GymTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E580EAA9-5AE6-4B7F-8619-0966E0DA8AC2}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|d:\\okr\\lw2\\gymtracker\\gymtraker.client.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E580EAA9-5AE6-4B7F-8619-0966E0DA8AC2}|GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj|solutionrelative:gymtraker.client.winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A1EA2FF-7624-4D43-5358-E9B0A3773CCA}|GymTracker.Api\\GymTracker.Api.csproj|d:\\git\\gymtracker\\gymtracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1EA2FF-7624-4D43-5358-E9B0A3773CCA}|GymTracker.Api\\GymTracker.Api.csproj|solutionrelative:gymtracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\OKR\\LW2\\GymTracker\\GymTraker.Client.WinForms\\Form1.cs",
-              "RelativeDocumentMoniker": "GymTraker.Client.WinForms\\Form1.cs",
-              "ToolTip": "D:\\OKR\\LW2\\GymTracker\\GymTraker.Client.WinForms\\Form1.cs [Design]",
-              "RelativeToolTip": "GymTraker.Client.WinForms\\Form1.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\GymTracker\\GymTracker.Api\\Program.cs",
+              "RelativeDocumentMoniker": "GymTracker.Api\\Program.cs",
+              "ToolTip": "D:\\Git\\GymTracker\\GymTracker.Api\\Program.cs",
+              "RelativeToolTip": "GymTracker.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T10:57:23.783Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-29T18:58:38.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }

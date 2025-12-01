@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "GymTracker.Api\\GymTracker.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GymTraker.Client.WinForms\\GymTraker.Client.WinForms.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

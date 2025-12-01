@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="GymTracker.Api.Tests/GymTracker.Api.Tests.csproj" Id="d4b7011c-c1e9-416f-9ac6-98348b8378fa" />
   <Project Path="GymTracker.Api/GymTracker.Api.csproj" />
   <Project Path="GymTraker.Client.WinForms/GymTraker.Client.WinForms.csproj" />
 </Solution>

@@ -2,17 +2,11 @@
 {
     partial class MainForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Очистка ресурсів
         /// </summary>
-        /// <param name="disposing">
-        /// true if managed resources should be disposed; otherwise, false.
-        /// </param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -24,209 +18,192 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support.
-        /// Do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.dgvWorkouts = new System.Windows.Forms.DataGridView();
-            this.groupBoxDetails = new System.Windows.Forms.GroupBox();
-            this.labelReps = new System.Windows.Forms.Label();
-            this.labelWeight = new System.Windows.Forms.Label();
-            this.labelExercise = new System.Windows.Forms.Label();
-            this.labelDate = new System.Windows.Forms.Label();
-            this.txtReps = new System.Windows.Forms.TextBox();
-            this.txtWeight = new System.Windows.Forms.TextBox();
-            this.txtExercise = new System.Windows.Forms.TextBox();
-            this.dtpDate = new System.Windows.Forms.DateTimePicker();
-            this.panelButtons = new System.Windows.Forms.Panel();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnLoad = new System.Windows.Forms.Button();
-            this.labelTitle = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvWorkouts)).BeginInit();
-            this.groupBoxDetails.SuspendLayout();
-            this.panelButtons.SuspendLayout();
-            this.SuspendLayout();
+            dgvWorkouts = new DataGridView();
+            groupBoxDetails = new GroupBox();
+            dtpDate = new DateTimePicker();
+            label4 = new Label();
+            txtReps = new TextBox();
+            label3 = new Label();
+            txtWeight = new TextBox();
+            label2 = new Label();
+            txtExercise = new TextBox();
+            label1 = new Label();
+            panelButtons = new Panel();
+            btnDelete = new Button();
+            btnUpdate = new Button();
+            btnAdd = new Button();
+            btnLoad = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvWorkouts).BeginInit();
+            groupBoxDetails.SuspendLayout();
+            panelButtons.SuspendLayout();
+            SuspendLayout();
             // 
             // dgvWorkouts
             // 
-            this.dgvWorkouts.AllowUserToAddRows = false;
-            this.dgvWorkouts.AllowUserToDeleteRows = false;
-            this.dgvWorkouts.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.dgvWorkouts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvWorkouts.Location = new System.Drawing.Point(12, 50);
-            this.dgvWorkouts.MultiSelect = false;
-            this.dgvWorkouts.Name = "dgvWorkouts";
-            this.dgvWorkouts.ReadOnly = true;
-            this.dgvWorkouts.RowHeadersVisible = false;
-            this.dgvWorkouts.RowTemplate.Height = 25;
-            this.dgvWorkouts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvWorkouts.Size = new System.Drawing.Size(520, 380);
-            this.dgvWorkouts.TabIndex = 0;
+            dgvWorkouts.AllowUserToAddRows = false;
+            dgvWorkouts.AllowUserToDeleteRows = false;
+            dgvWorkouts.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            dgvWorkouts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvWorkouts.Location = new Point(12, 12);
+            dgvWorkouts.MultiSelect = false;
+            dgvWorkouts.Name = "dgvWorkouts";
+            dgvWorkouts.ReadOnly = true;
+            dgvWorkouts.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvWorkouts.Size = new Size(520, 460);
+            dgvWorkouts.TabIndex = 0;
+            dgvWorkouts.SelectionChanged += dgvWorkouts_SelectionChanged;
             // 
             // groupBoxDetails
             // 
-            this.groupBoxDetails.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxDetails.Controls.Add(this.labelReps);
-            this.groupBoxDetails.Controls.Add(this.labelWeight);
-            this.groupBoxDetails.Controls.Add(this.labelExercise);
-            this.groupBoxDetails.Controls.Add(this.labelDate);
-            this.groupBoxDetails.Controls.Add(this.txtReps);
-            this.groupBoxDetails.Controls.Add(this.txtWeight);
-            this.groupBoxDetails.Controls.Add(this.txtExercise);
-            this.groupBoxDetails.Controls.Add(this.dtpDate);
-            this.groupBoxDetails.Location = new System.Drawing.Point(548, 50);
-            this.groupBoxDetails.Name = "groupBoxDetails";
-            this.groupBoxDetails.Size = new System.Drawing.Size(320, 230);
-            this.groupBoxDetails.TabIndex = 1;
-            this.groupBoxDetails.TabStop = false;
-            this.groupBoxDetails.Text = "Нове тренування";
-            // 
-            // labelReps
-            // 
-            this.labelReps.AutoSize = true;
-            this.labelReps.Location = new System.Drawing.Point(18, 169);
-            this.labelReps.Name = "labelReps";
-            this.labelReps.Size = new System.Drawing.Size(86, 15);
-            this.labelReps.TabIndex = 7;
-            this.labelReps.Text = "Повторення:";
-            // 
-            // labelWeight
-            // 
-            this.labelWeight.AutoSize = true;
-            this.labelWeight.Location = new System.Drawing.Point(18, 126);
-            this.labelWeight.Name = "labelWeight";
-            this.labelWeight.Size = new System.Drawing.Size(36, 15);
-            this.labelWeight.TabIndex = 6;
-            this.labelWeight.Text = "Вага:";
-            // 
-            // labelExercise
-            // 
-            this.labelExercise.AutoSize = true;
-            this.labelExercise.Location = new System.Drawing.Point(18, 82);
-            this.labelExercise.Name = "labelExercise";
-            this.labelExercise.Size = new System.Drawing.Size(44, 15);
-            this.labelExercise.TabIndex = 5;
-            this.labelExercise.Text = "Вправа:";
-            // 
-            // labelDate
-            // 
-            this.labelDate.AutoSize = true;
-            this.labelDate.Location = new System.Drawing.Point(18, 38);
-            this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(37, 15);
-            this.labelDate.TabIndex = 4;
-            this.labelDate.Text = "Дата:";
-            // 
-            // txtReps
-            // 
-            this.txtReps.Location = new System.Drawing.Point(120, 166);
-            this.txtReps.Name = "txtReps";
-            this.txtReps.PlaceholderText = "наприклад, 8";
-            this.txtReps.Size = new System.Drawing.Size(180, 23);
-            this.txtReps.TabIndex = 3;
-            // 
-            // txtWeight
-            // 
-            this.txtWeight.Location = new System.Drawing.Point(120, 123);
-            this.txtWeight.Name = "txtWeight";
-            this.txtWeight.PlaceholderText = "кг, напр. 80";
-            this.txtWeight.Size = new System.Drawing.Size(180, 23);
-            this.txtWeight.TabIndex = 2;
-            // 
-            // txtExercise
-            // 
-            this.txtExercise.Location = new System.Drawing.Point(120, 79);
-            this.txtExercise.Name = "txtExercise";
-            this.txtExercise.PlaceholderText = "Жим лежачи, присідання…";
-            this.txtExercise.Size = new System.Drawing.Size(180, 23);
-            this.txtExercise.TabIndex = 1;
+            groupBoxDetails.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            groupBoxDetails.Controls.Add(dtpDate);
+            groupBoxDetails.Controls.Add(label4);
+            groupBoxDetails.Controls.Add(txtReps);
+            groupBoxDetails.Controls.Add(label3);
+            groupBoxDetails.Controls.Add(txtWeight);
+            groupBoxDetails.Controls.Add(label2);
+            groupBoxDetails.Controls.Add(txtExercise);
+            groupBoxDetails.Controls.Add(label1);
+            groupBoxDetails.Location = new Point(540, 12);
+            groupBoxDetails.Name = "groupBoxDetails";
+            groupBoxDetails.Size = new Size(300, 200);
+            groupBoxDetails.TabIndex = 1;
+            groupBoxDetails.TabStop = false;
+            groupBoxDetails.Text = "Нове тренування";
             // 
             // dtpDate
             // 
-            this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDate.Location = new System.Drawing.Point(120, 35);
-            this.dtpDate.Name = "dtpDate";
-            this.dtpDate.Size = new System.Drawing.Size(180, 23);
-            this.dtpDate.TabIndex = 0;
+            dtpDate.Location = new Point(115, 25);
+            dtpDate.Name = "dtpDate";
+            dtpDate.Size = new Size(170, 23);
+            dtpDate.TabIndex = 8;
+            dtpDate.ValueChanged += dtpDate_ValueChanged;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(15, 30);
+            label4.Name = "label4";
+            label4.Size = new Size(35, 15);
+            label4.TabIndex = 7;
+            label4.Text = "Дата:";
+            // 
+            // txtReps
+            // 
+            txtReps.Location = new Point(115, 155);
+            txtReps.Name = "txtReps";
+            txtReps.Size = new Size(170, 23);
+            txtReps.TabIndex = 6;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(15, 159);
+            label3.Name = "label3";
+            label3.Size = new Size(77, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Повторення:";
+            // 
+            // txtWeight
+            // 
+            txtWeight.Location = new Point(115, 115);
+            txtWeight.Name = "txtWeight";
+            txtWeight.Size = new Size(170, 23);
+            txtWeight.TabIndex = 4;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(15, 119);
+            label2.Name = "label2";
+            label2.Size = new Size(34, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Вага:";
+            // 
+            // txtExercise
+            // 
+            txtExercise.Location = new Point(115, 74);
+            txtExercise.Name = "txtExercise";
+            txtExercise.Size = new Size(170, 23);
+            txtExercise.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(15, 78);
+            label1.Name = "label1";
+            label1.Size = new Size(49, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Вправа:";
             // 
             // panelButtons
             // 
-            this.panelButtons.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right))));
-            this.panelButtons.Controls.Add(this.btnDelete);
-            this.panelButtons.Controls.Add(this.btnAdd);
-            this.panelButtons.Controls.Add(this.btnLoad);
-            this.panelButtons.Location = new System.Drawing.Point(548, 291);
-            this.panelButtons.Name = "panelButtons";
-            this.panelButtons.Size = new System.Drawing.Size(320, 139);
-            this.panelButtons.TabIndex = 2;
+            panelButtons.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            panelButtons.Controls.Add(btnDelete);
+            panelButtons.Controls.Add(btnUpdate);
+            panelButtons.Controls.Add(btnAdd);
+            panelButtons.Controls.Add(btnLoad);
+            panelButtons.Location = new Point(540, 220);
+            panelButtons.Name = "panelButtons";
+            panelButtons.Size = new Size(300, 150);
+            panelButtons.TabIndex = 2;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(18, 92);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(282, 30);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "Видалити вибране тренування";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            btnDelete.Location = new Point(10, 118);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(280, 30);
+            btnDelete.TabIndex = 3;
+            btnDelete.Text = "Видалити вибране";
+            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
+            // 
+            // btnUpdate
+            // 
+            btnUpdate.Location = new Point(10, 82);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(280, 30);
+            btnUpdate.TabIndex = 2;
+            btnUpdate.Text = "Зберегти зміни";
+            btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(18, 53);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(282, 30);
-            this.btnAdd.TabIndex = 1;
-            this.btnAdd.Text = "Додати тренування";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            btnAdd.Location = new Point(10, 46);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(280, 30);
+            btnAdd.TabIndex = 1;
+            btnAdd.Text = "Додати тренування";
+            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(18, 14);
-            this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(282, 30);
-            this.btnLoad.TabIndex = 0;
-            this.btnLoad.Text = "Оновити список тренувань";
-            this.btnLoad.UseVisualStyleBackColor = true;
-            this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
-            // 
-            // labelTitle
-            // 
-            this.labelTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTitle.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
-            this.labelTitle.Location = new System.Drawing.Point(12, 9);
-            this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(856, 30);
-            this.labelTitle.TabIndex = 3;
-            this.labelTitle.Text = "GymTracker – облік тренувань";
-            this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            btnLoad.Location = new Point(10, 10);
+            btnLoad.Name = "btnLoad";
+            btnLoad.Size = new Size(280, 30);
+            btnLoad.TabIndex = 0;
+            btnLoad.Text = "Оновити список";
+            btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.Click += btnLoad_Click;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 442);
-            this.Controls.Add(this.labelTitle);
-            this.Controls.Add(this.panelButtons);
-            this.Controls.Add(this.groupBoxDetails);
-            this.Controls.Add(this.dgvWorkouts);
-            this.MinimumSize = new System.Drawing.Size(900, 480);
-            this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "GymTracker – клієнт";
-            this.Load += new System.EventHandler(this.MainForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvWorkouts)).EndInit();
-            this.groupBoxDetails.ResumeLayout(false);
-            this.groupBoxDetails.PerformLayout();
-            this.panelButtons.ResumeLayout(false);
-            this.ResumeLayout(false);
+            ClientSize = new Size(854, 484);
+            Controls.Add(panelButtons);
+            Controls.Add(groupBoxDetails);
+            Controls.Add(dgvWorkouts);
+            Name = "MainForm";
+            Text = "GymTracker – Клієнт";
+            Load += MainForm_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvWorkouts).EndInit();
+            groupBoxDetails.ResumeLayout(false);
+            groupBoxDetails.PerformLayout();
+            panelButtons.ResumeLayout(false);
+            ResumeLayout(false);
 
         }
 
@@ -234,18 +211,18 @@
 
         private System.Windows.Forms.DataGridView dgvWorkouts;
         private System.Windows.Forms.GroupBox groupBoxDetails;
-        private System.Windows.Forms.Label labelReps;
-        private System.Windows.Forms.Label labelWeight;
-        private System.Windows.Forms.Label labelExercise;
-        private System.Windows.Forms.Label labelDate;
-        private System.Windows.Forms.TextBox txtReps;
-        private System.Windows.Forms.TextBox txtWeight;
-        private System.Windows.Forms.TextBox txtExercise;
         private System.Windows.Forms.DateTimePicker dtpDate;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtReps;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtWeight;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtExercise;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelButtons;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnLoad;
-        private System.Windows.Forms.Label labelTitle;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
     }
 }
