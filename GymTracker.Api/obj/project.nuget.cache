@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "13n0iwSMQmQ=",
+  "dgSpecHash": "MFcCyzw/q9A=",
   "success": true,
-  "projectFilePath": "D:\\Git\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj",
+  "projectFilePath": "D:\\OKR\\LW2\\GymTracker\\GymTracker.Api\\GymTracker.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maks\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
     "C:\\Users\\Maks\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0\\microsoft.data.sqlite.core.10.0.0.nupkg.sha512",
