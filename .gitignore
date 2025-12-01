@@ -69,11 +69,6 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# macOS (якщо хтось раптом на маку)
-.DS_Store
-.AppleDouble
-.LSOverride
-
 # Linux
 *~
 
