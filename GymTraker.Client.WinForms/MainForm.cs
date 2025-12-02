@@ -115,7 +115,6 @@ namespace GymTraker.Client.WinForms
         {
             await DeleteSelectedAsync();
         }
-
         private async Task DeleteSelectedAsync()
         {
             try

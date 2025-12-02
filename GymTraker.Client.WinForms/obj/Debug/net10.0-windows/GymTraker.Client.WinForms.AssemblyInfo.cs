@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GymTraker.Client.WinForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14557e6263dd838941b1c9e4e48b7ce296d50d64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f532df38af2f4744705762637094e0d7a0ed22f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("GymTraker.Client.WinForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GymTraker.Client.WinForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
