@@ -9,6 +9,8 @@ namespace GymTraker.Client.WinForms
     {
         private readonly HttpClient _httpClient;
 
+
+
         public MainForm()
         {
             InitializeComponent();

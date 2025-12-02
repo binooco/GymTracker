@@ -6,6 +6,7 @@ namespace GymTraker.Client.WinForms.Models
 {
     internal class WorkoutCreateDto
     {
+
         public DateTime Date { get; set; }
         public string ExerciseName { get; set; } = "";
         public double Weight { get; set; }
